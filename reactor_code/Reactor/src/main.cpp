@@ -1,27 +1,29 @@
 #include <Arduino.h>
 #include <Bounce2.h>
 
-/* Xiao RP20240 */
-// const int BUT1 = D2;
-// const int BUT2 = D3;
-// const int BUT3 = D7;
-// const int BUT4 = D8;
+// #define TESTMODE
 
-// const int LED1 = D0;
-// const int LED2 = D1;
-// const int LED3 = D10;
-// const int LED4 = D9;
+/* Xiao RP20240 */
+const int BUT1 = D2;
+const int BUT2 = D4;
+const int BUT3 = D7;
+const int BUT4 = D8;
+
+const int LED1 = D1;
+const int LED2 = D0;
+const int LED3 = D10;
+const int LED4 = D9;
 
 /* Wokwi Simulator */
-const int BUT1 = 8;
-const int BUT2 = 9;
-const int BUT3 = 21;
-const int BUT4 = 22;
+// const int BUT1 = 8;
+// const int BUT2 = 9;
+// const int BUT3 = 21;
+// const int BUT4 = 22;
 
-const int LED1 = 6;
-const int LED2 = 7;
-const int LED3 = 26;
-const int LED4 = 27;
+// const int LED1 = 6;
+// const int LED2 = 7;
+// const int LED3 = 26;
+// const int LED4 = 27;
 
 const int button_pin_array[4] = {BUT1, BUT2, BUT3, BUT4};
 Bounce2::Button *button_array = new Bounce2::Button[4];
