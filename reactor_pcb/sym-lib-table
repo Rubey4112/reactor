@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "L08R5000Q1")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_models/L08R5000Q1.kicad_sym")(options "")(descr ""))
+  (lib (name "OrpheusFlag")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_models/OrpheusFlag.kicad_sym")(options "")(descr ""))
+  (lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_models/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
+)
